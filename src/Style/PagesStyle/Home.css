@@ -1,0 +1,72 @@
+.home__main{
+    background:url('D:/PortFolio/portfolio/src/images/port1.jpg');
+    width: 100vw;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px 200px 100px;
+    
+}
+.home__heading{
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.home__heading2{
+    font-size: 30px;
+}
+.Home__btn{
+    background-color: red;
+    padding: 10px 15px 10px 15px ;
+    border-radius: 5px 20px 5px 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: rgb(38, 2, 2) 0px 5px 15px;
+
+}
+
+.Home__btn:hover{
+    /* background-color: rgb(182, 4, 4);  */
+    border: 2px solid red;
+    background: none;
+    transform: scaleX(1.1);
+    color: green;
+}
+.home__txt{
+    color: orangered;
+   
+}
+.home__icons{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+.home__icons:hover{
+    color: rgb(223, 0, 0);
+    transform: scale(1.2);
+    animation: forwards;
+}
+@media(max-width:900px){
+
+    .home__main{
+        height: 100vh;
+       
+        
+        
+        padding: 30px 0px 100px 40px;
+        
+    }
+
+    .home__heading{
+        font-size: 30px;
+        font-weight: bold;
+    
+    }
+    .home__icons{
+        /* color: rgb(255, 0, 0); */
+        font-size: 20px;
+    }
+
+}

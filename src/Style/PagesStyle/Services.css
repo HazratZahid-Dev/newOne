@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+   
+}
+
+img {
+    height: 520px;
+    width: 250px;
+    border-top-left-radius: 08px;
+    border-bottom-left-radius: 08px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+#perfume {
+    padding: 20px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.card {
+    font-family: 'Montserrat', sans-serif;
+    height: 520px;
+    width: 250px;
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 08px;
+    border-bottom-right-radius: 08px;
+    
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    padding-left: 20px;
+    padding-top: 1px;
+    
+
+}
+
+p {
+    padding: 20px;
+    font-size: 14px;
+    
+    color: hsl(228, 12%, 48%);
+    
+}
+
+#amount {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    padding: 20px;
+    
+}
+
+#discount {
+    color: hsl(228, 12%, 48%);
+    margin-top: 0px;
+    text-decoration: line-through;
+    position: absolute;
+    top: 610px;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    background-color: hsl(158, 30%, 24%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 08px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+ @media (max-width: 600px) {
+    img {
+        height: 400px;
+        width: 200px;
+        
+        
+    }
+    
+    #perfume {
+        padding: 10px;
+        color: hsl(228, 12%, 48%);
+        letter-spacing: 2px;
+        font-size: 13px;
+        font-weight: bold;
+        
+    }
+    
+h1 {
+    font-family: 'Fraunces', serif;
+    padding-left: 10px;
+    padding-top: 1px;
+    font-size: 13px;
+    
+
+}
+
+    .card {
+     
+        height: 400px;
+        width: 200px;
+       
+        
+    }
+
+
+
+    p {
+        padding: 20px;
+        font-size: 10px;
+        
+        color: hsl(228, 12%, 48%);
+        
+    }
+   
+#amount {
+   
+    font-size: 20px;
+    padding: 10px;
+    
+}
+    button {
+
+        margin: 10px;
+        padding: 5px;
+        width: 150px;
+     
+        font-size: 15px;
+        
+       
+    }
+} 
+
+
